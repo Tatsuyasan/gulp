@@ -2,4 +2,4 @@ import { App } from './app';
 
 
 new App ();
-console.log('gulp et la vie');
+console.log('gulp et la vie... yolo !');

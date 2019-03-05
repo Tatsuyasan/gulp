@@ -831,7 +831,7 @@ System.register("main", ["app"], function (exports_2, context_2) {
         ],
         execute: function () {
             new app_1.App();
-            console.log('gulp et la vie');
+            console.log('gulp et la vie... yolo !');
         }
     };
 });

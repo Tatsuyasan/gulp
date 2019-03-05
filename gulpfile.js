@@ -2,6 +2,10 @@
 // npm install -g --save-dev typescript gulp-typescript gulp-concat gulp-sourcemaps gulp-uglify-es
 // npm i --save-dev systemjss
 
+// Settings folder
+const config = require('./appconfig.json');
+
+const sourcemaps = require('gulp-sourcemaps');
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 const rename = require('gulp-rename');
@@ -20,7 +24,7 @@ const uglify = require('gulp-uglify-es').default;
 function browserSync(done) {
     browsersync.init({
         server: ['app', 'dist'],
-        port: 8080
+        port: config.server.port
     });
     done();
 }
