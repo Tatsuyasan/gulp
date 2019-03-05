@@ -1,0 +1,15 @@
+body{
+    color: $color;
+}
+
+.salut{
+    background-color: $bgcolor;
+    &.yolo{
+        color: $color;
+    }
+}
+
+@for $i from 1 through 4{
+    .mt-#{$i} {margin-top: 5px*$i}
+    .mb-#{$i} {margin-bottom: 5px*$i}
+    }
