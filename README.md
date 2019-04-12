@@ -1,2 +1,2 @@
 # gulp
-compile css/js and life overview
+compile css/js and live overview
